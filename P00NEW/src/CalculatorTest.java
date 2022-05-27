@@ -60,10 +60,10 @@ public class CalculatorTest {
 		assertEquals (actual, expected);
 		}
 	@Test
-	public void testdivide() {
+	public void divide() {
 		int a = 10;
 		int b = 5;
-//			hi
+			
 		Calculator cal = new Calculator();
 		int actual = cal.divide(a, b); 
 			 
